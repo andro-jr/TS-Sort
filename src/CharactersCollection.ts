@@ -1,4 +1,6 @@
-export class CharactersCollection {
+import { Sortable } from './Sorter';
+
+export class CharactersCollection implements Sortable {
   constructor(public data: string) {
     this.data = data;
   }

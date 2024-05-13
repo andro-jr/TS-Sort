@@ -1,4 +1,4 @@
-interface Sortable {
+export interface Sortable {
   compare(leftIndex: number): boolean;
   swap(leftIndex: number): void;
   length: number;
