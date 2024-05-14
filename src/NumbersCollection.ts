@@ -1,7 +1,8 @@
-import { Sortable } from './Sorter';
+import { Sorter } from './Sorter';
 
-export class NumbersColection implements Sortable {
+export class NumbersColection extends Sorter {
   constructor(public data: number[]) {
+    super();
     this.data = data;
   }
 
